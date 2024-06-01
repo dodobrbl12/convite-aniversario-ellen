@@ -5,12 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #000000;
-    color: white;
+    background-color: #333;
+    color: #fff;
     width: 100%;
     text-align: center;
     padding: 1em 0;
@@ -20,12 +20,12 @@ main {
     padding: 2em;
     width: 100%;
     max-width: 600px;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-top: 2em;
 }
 
-#details, #rsvp {
+#schedule {
     margin-top: 1em;
 }
 
@@ -38,40 +38,26 @@ label {
     margin: 0.5em 0 0.2em;
 }
 
-input, button {
+input, select, button {
     padding: 0.5em;
     margin-bottom: 1em;
 }
 
 button {
-    background-color: #000000;
-    color: white;
+    background-color: #333;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #555;
 }
 
-.icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-#guest-list {
-    margin-top: 1em;
-}
-
-#guest-names {
-    list-style: none;
-    padding: 0;
-}
-
-#guest-names li {
-    background-color: #f1f1f1;
-    margin: 0.5em 0;
-    padding: 0.5em;
-    border-radius: 5px;
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
 }
